@@ -102,8 +102,17 @@ bool Zoo::ajouter(Lion &L){
     }
     return false;
 }
+vector<Veterinaire>::iterator Zoo::chercherVeterinaire(int mat){
+    vector <Veterinaire>::iterator it;
+    for (it=tabAnimaux.begin();it!=tabAnimaux.end();it++){
+        if((*it)->getMatricule()==mat){
+            return it;
+        }
+    }
+    return tabAnimaux.end();
+}
 bool Zoo::ajouter(Veterinaire &V){
-    if (chercherAnimal(L.getMatricule())==tabAnimaux.end()){
+    if (chercherAnimal(V.getMatricule())==tabAnimaux.end()){
         Animal *p = new Veterinaire(V);
         tabAnimaux.push_back(p);
         return true;
