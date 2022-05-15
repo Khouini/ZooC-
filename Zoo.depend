@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1652571103 source:c:\users\khouini\documents\prog\zoo\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"Animal.h"
+	"Lion.h"
+	"Zoo.h"
+
+1652569340 source:c:\users\khouini\documents\prog\zoo\src\veterinaire.cpp
+	"Veterinaire.h"
+
+1652569340 c:\users\khouini\documents\prog\zoo\include\veterinaire.h
+	<iostream>
+	<string>
+	<vector>
+
+1652571177 source:c:\users\khouini\documents\prog\zoo\src\zoo.cpp
+	"Zoo.h"
+
+1652571147 c:\users\khouini\documents\prog\zoo\include\zoo.h
+	<iostream>
+	<string>
+	<vector>
+	"Animal.h"
+	"Lion.h"
+	"Veterinaire.h"
+
+1652571221 source:c:\users\khouini\documents\prog\zoo\src\animal.cpp
+	"Animal.h"
+	<iostream>
+	<string>
+	<vector>
+
+1652569891 c:\users\khouini\documents\prog\zoo\include\animal.h
+	<iostream>
+	<string>
+	<vector>
+
+1652571228 source:c:\users\khouini\documents\prog\zoo\src\lion.cpp
+	"Lion.h"
+
+1652567367 c:\users\khouini\documents\prog\zoo\include\lion.h
+	<iostream>
+	<string>
+	<vector>
+	"Animal.h"
+
